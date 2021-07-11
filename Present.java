@@ -1,8 +1,10 @@
 package ie.Galway.co;
+//https://java-programming.mooc.fi/part-1/4-variables
+//https://java-programming.mooc.fi/part-1/6-conditional-statements
 
 import java.util.Scanner;
 
-public class Present {
+public class Calculator {
 
 	public static void main(String[] args) {
 

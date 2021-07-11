@@ -27,7 +27,7 @@ public class Calculator {
 			    System.out.println("no tax");	
 				} 	
 				double tax = gift * rate;   //equation placed here to utilise all of the rates set in the program
-				System.out.println("The tax is: " + rate + tax);  
+				System.out.println("The tax is: " + tax);  
 				}
 			}
 	}

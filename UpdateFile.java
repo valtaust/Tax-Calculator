@@ -12,7 +12,7 @@ public class Calculator {
 				System.out.println("enter a gift value");
 				double gift = Double.valueOf(reader.nextLine());
 				
-				double rate = 0;
+				double rate = 0;  //initialise the rate variable
 				
 				
 				if (gift >= 5000 && gift <= 25000) { // handle the most demanding condition
@@ -24,7 +24,7 @@ public class Calculator {
 				} else if (gift >= 200000 && gift <= 1000000){
 					rate = 0.15;
 				} else {
-			    System.out.println("no tax");	
+			    System.out.println("no tax");    //tax not applicable for excess quantity	
 				} 	
 				double tax = gift * rate;   //equation placed here to utilise all of the rates set in the program
 				System.out.println("The tax is: " + tax);  
